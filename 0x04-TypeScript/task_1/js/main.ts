@@ -13,3 +13,9 @@ irst initialized.
 interface Directors extends Teacher {
   numberOfReports: number;
 }
+
+
+// Printing teachers
+function printTeacher(firstName: string, lastName: string) {
+    return `${firstName.charAt(0)}. ${lastName}`;
+}
