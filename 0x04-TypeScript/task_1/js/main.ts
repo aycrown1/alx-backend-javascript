@@ -8,3 +8,8 @@ irst initialized.
   location: string;
   [key: string]: any; //  allows for any additional attributes
 }
+
+// Extending the Teacher class
+interface Directors extends Teacher {
+  numberOfReports: number;
+}
